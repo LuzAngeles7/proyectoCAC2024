@@ -91,6 +91,7 @@ body {
     background: url('https://st3.depositphotos.com/25067502/32711/v/450/depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
+  
 }
 
 .main::before {
