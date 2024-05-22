@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const mensajeError = document.getElementById('mensajeError');
 
     formulario.addEventListener('submit', function (evento) {
-        evento.preventDefault(); 
+        evento.preventDefault();
 
         let nombre = document.getElementById('nombre').value;
         let apellido = document.getElementById('apellido').value;
-        let fecha = document.getElementById('categoria').checked;
-        let email = document.getElementById('terminos').value;
-        let telefono = document.getElementById('tel').value;
+        let fecha = document.getElementById('fecha').value;
+        let email = document.getElementById('emAil').value;
+        let telefono = document.getElementById('telefono').value;
         let consulta = document.getElementById('consulta').value;
         let novedades =document.getElementById("novedades").checked;
 
-        // Validación de los campos
+        
         if (nombre.trim() === '') {
             mensajeError.innerText = 'El campo nombre no puede estar vacío.';
             return;
@@ -54,15 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
             mensajeError.innerText = 'Debes indicar tu preferencia.';
             return;
         
-       
-        mensajeError.innerText = '';
+        }
+        
         alert('Formulario enviado con éxito!');
         formulario.submit(); 
-    }});
-
-    function validarEmail(email) {
+ })
+}) ;
+    
+function validarEmail(email) {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
     }
 
-});

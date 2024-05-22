@@ -22,20 +22,42 @@
         </nav>
       </header>
     <section>
-        <div class="contForm">
-            <p>Contactese con nostros rapidamente mediante el siguiente formulario:</p>
-            <br>
-            <form action="" method="get">
-            Nombre:   <input id="nombre" type="text" name="Nombre" id="" size="50"> <br> <br>
-            Apellido:    <input id="apellido" type="text" name="Apellido" id="" size="50"> <br> <br>
-            Fecha de Nacimiento    <input id="fecha" type="date" name="Fecha de Nacimiento" id="" size="80"> <br> <br>
-            Email: <input id="email" type="email" name="Email" id="" size="50"> <br> <br>
-            Telefono: <input id="telefono" type="tel" name="Telefono" id="" size="50"> <br> <br>
-            Consulta: <br> <textarea id="consulta" name="Comentario" id="" rows="10" cols="40">Escriba su consulta...</textarea> <br> <br>
-            ¿Estas interesado en recibir novedades? Si <input id="novedades" type="checkbox" name="Si" id="" value="Si"> No <input type="checkbox" name="No" id="" value="No"> <br> <br>
-            <input type="submit" value="ENVIAR">
-            <input type="reset" value="BORRAR">
-            </form>
+    
+            <div class="form-container">
+              <div class="form-container">
+                <h1>Contactese con nostros rapidamente mediante el siguiente formulario:</h1>
+              </div>
+
+              <form id="formulario" method="get">
+              <div class="form-items">
+              <b>Nombre:</b><input id="nombre" type="text" name="Nombre"  size="50">
+              </div>
+              <div class="form-items">
+                <b>Apellido:</b><input id="apellido" type="text" name="Apellido"  size="50"> <br> <br>
+              </div>
+              <div class="form-items">
+                <b>Fecha de Nacimiento</b><input id="fecha" type="date" name="Fecha de Nacimiento"  size="80">
+              </div>
+              <div class="form-items">
+                <b> Email:</b> <input id="emAil" type="email" name="Email" size="50" autocomplete="off" >
+              </div>
+              <div class="form-items">
+                <b> Telefono:</b> <input id="telefono" type="tel" name="Telefono"  size="50">
+              </div>
+              <div class="form-items">
+                <p> <b>Consulta:</b></p><textarea id="consulta" name="Comentario" rows="10" cols="40">Escriba su consulta...</textarea>
+              </div>
+              <div class="form-items">
+                <b>¿Estas interesado en recibir novedades? Si </b><input id="novedades" type="checkbox" name="Si"value="Si"> No <input type="checkbox" name="No" value="No">
+              </div>
+              <div class="form-items">
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="BORRAR">
+              </div>
+           </div>
+            
+              
+  
         </div>
         <footer class="footer-nav">
             <div class="social-icons">
