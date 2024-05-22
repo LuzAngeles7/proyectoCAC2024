@@ -169,3 +169,12 @@ body {
     text-align: justify;
 }
 
+/* Style Agustin*/
+
+.contForm {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    margin: auto;
+}

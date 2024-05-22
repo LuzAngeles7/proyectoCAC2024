@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
 </head>
 <body>
-    
+    <header class="header-nav">
+        <nav>
+          <div class="logo">
+              <a href="nav.html"><img src="img/logo/png-transparent-book-graphy-illustration-books-text-comic-book-photography-thumbnail-removebg-preview.png" alt="Libros"></a>
+          </div>
+          <ul>
+            <li><a href="QuienesSomos.html">Quiénes Somos</a></li>
+            <li><a href="index.html">Libros</a></li>
+            <li><a href="form.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
     <section>
-        <div>
+        <div class="contForm">
             <p>Contactese con nostros rapidamente mediante el siguiente formulario:</p>
+            <br>
             <form action="" method="get">
             Nombre:   <input id="nombre" type="text" name="Nombre" id="" size="50"> <br> <br>
             Apellido:    <input id="apellido" type="text" name="Apellido" id="" size="50"> <br> <br>
@@ -22,8 +37,17 @@
             <input type="reset" value="BORRAR">
             </form>
         </div>
+        <footer class="footer-nav">
+            <div class="social-icons">
+              <a href="https://x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>&copy; 2024 Venta de Libros. Todos los derechos reservados.</div>
+          </footer>
     </section>
-    <script src="form.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 </html>
