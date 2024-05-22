@@ -85,7 +85,7 @@ body {
     min-height: 100vh;
 }
 
-.main-nav {
+.main {
     flex: 1;
     padding: 20px;
     background: url('https://st3.depositphotos.com/25067502/32711/v/450/depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg') no-repeat center center fixed;
@@ -93,7 +93,7 @@ body {
     position: relative;
 }
 
-.main-nav::before {
+.main::before {
     content: '';
     position: absolute;
     top: 0;
@@ -104,7 +104,7 @@ body {
     z-index: 1;
 }
 
-.main-nav > * {
+.main > * {
     position: relative;
     z-index: 2;
 }
