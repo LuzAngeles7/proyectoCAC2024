@@ -27,7 +27,7 @@ body {
 .conteiner{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 
 .conteiner .card{
     width: 330px;
-    height: 430px;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -54,7 +54,7 @@ body {
 
 .conteiner .card img{
     width: 330px;
-    height: 220px;
+    height: auto;
 }
 
 .conteiner .card h4{
