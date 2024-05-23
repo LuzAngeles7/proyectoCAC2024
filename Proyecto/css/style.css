@@ -224,7 +224,6 @@ body {
     height: auto;
     display: flex;
     margin: auto;
-    font-family: sans-serif;
 }  
 
 
@@ -239,6 +238,7 @@ body {
     max-width: 600px;
     place-items: center;
     margin: auto;
+    font-family: 'Courier New', Courier, monospace;
 
   }
   
