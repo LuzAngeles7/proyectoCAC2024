@@ -224,14 +224,22 @@ body {
     height: auto;
     display: flex;
     margin: auto;
-}
+    font-family: sans-serif;
+}  
+
+
 .form-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: normal;
-    align-items: normal;
-    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    place-items: center;
+    margin: auto;
+
   }
   
   .form-items:nth-child(1) {
@@ -241,6 +249,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
   }
   
   .form-items:nth-child(2) {
@@ -250,6 +259,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(3) {
@@ -259,6 +270,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(4) {
@@ -268,6 +281,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(5) {
@@ -277,6 +292,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(6) {
@@ -286,6 +303,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(7) {
@@ -295,6 +314,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(8) {
@@ -304,6 +325,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(9) {
@@ -313,6 +336,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   .form-items:nth-child(10) {
     display: block;
@@ -321,4 +346,6 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
