@@ -64,11 +64,12 @@ body {
 
 .conteiner .card h4{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .conteiner .card h3{
-    font-size: 18px;
+    font-size: 17px;
+    margin-top: 10px;
     font-weight: 600;
     width: 90%;
 }
