@@ -102,7 +102,7 @@ body {
 }
 
 .main {
-    flex: 1;
+   /* flex: 1;*/
     padding: 20px;
     background: url('https://st3.depositphotos.com/25067502/32711/v/450/depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -125,6 +125,38 @@ body {
     z-index: 2;
 }
 
+.main {
+
+    display: flex;
+    justify-content: center;     
+    align-content: center;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+
+  .main-items{
+    border: 3px ;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 3px;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 40;
+    border-collapse: collapse;
+    border: 5px solid black;
+  }
+
+  .tituloTable{
+    align-items: center;  }
+
+  td {
+    padding: 20px;
+  }
 .footer-nav {
     background-color: #333;
     color: white;
