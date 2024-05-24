@@ -40,7 +40,8 @@ body {
 
 .conteiner .card{
     width: 12.56em;
-    height: 24em;
+    height: 26em;
+    font-size: 1em; 
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -48,6 +49,7 @@ body {
     padding: 0.5em;
     text-align: center;
     transition: all 0.15s;
+    
 }
 
 .conteiner .card:hover{
@@ -68,7 +70,7 @@ body {
 }
 
 .conteiner .card h3{
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 10px;
     font-weight: 600;
     width: 90%;
@@ -80,16 +82,10 @@ body {
     width: 77%;
     border-radius: 2px;
     padding: 0 1rem;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
 }
 
-.conteiner .card a {
-    font-weight: 500;
-    text-decoration: none;
-    color: #3498db;
-
-}
 .conteiner .card{
     padding-bottom: 0.25em;
 }
