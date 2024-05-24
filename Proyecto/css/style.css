@@ -135,6 +135,7 @@ body {
     gap: 5px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+    font-weight: 2000;
   }
 
   .main-items{
@@ -142,17 +143,20 @@ body {
     border-radius: 5px;
     padding: 8px;
     margin: 3px;
+
   }
 
   table {
     table-layout: fixed;
     width: 40;
     border-collapse: collapse;
-    border: 5px solid black;
+    border: 3px solid black;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
 
   .tituloTable{
-    align-items: center;  }
+   text-align: center;  }
 
   td {
     padding: 20px;
@@ -250,15 +254,6 @@ body {
 
 /* Style Agustin*/
 
-.contForm {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    display: flex;
-    margin: auto;
-}  
-
-
 .form-container {
     display: flex;
     flex-direction: column;
@@ -267,10 +262,10 @@ body {
     align-items: center;
     align-content: center;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
+    height: 760px;
     place-items: center;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto", sans-serif;
 
   }
   
@@ -281,7 +276,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(2) {
@@ -291,7 +286,6 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
   }
   
@@ -302,7 +296,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    
 
   }
   
@@ -313,7 +307,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+   
 
   }
   
@@ -324,7 +318,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    
 
   }
   
@@ -335,7 +329,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    
 
   }
   
@@ -346,7 +340,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    
 
   }
   
