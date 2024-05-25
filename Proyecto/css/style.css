@@ -99,7 +99,7 @@ body {
 }
 
 .main {
-    flex: 1;
+   /* flex: 1;*/
     padding: 20px;
     background: url('https://st3.depositphotos.com/25067502/32711/v/450/depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -122,6 +122,42 @@ body {
     z-index: 2;
 }
 
+.main {
+
+    display: flex;
+    justify-content: center;     
+    align-content: center;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 2000;
+  }
+
+  .main-items{
+    border: 3px ;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 3px;
+
+  }
+
+  table {
+    table-layout: fixed;
+    width: 40;
+    border-collapse: collapse;
+    border: 3px solid black;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .tituloTable{
+   text-align: center;  }
+
+  td {
+    padding: 20px;
+  }
 .footer-nav {
     background-color: #333;
     color: white;
@@ -215,20 +251,19 @@ body {
 
 /* Style Agustin*/
 
-.contForm {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    display: flex;
-    margin: auto;
-}
 .form-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: normal;
-    align-items: normal;
-    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    height: 760px;
+    place-items: center;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+
   }
   
   .form-items:nth-child(1) {
@@ -238,6 +273,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+
   }
   
   .form-items:nth-child(2) {
@@ -247,6 +283,7 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+
   }
   
   .form-items:nth-child(3) {
@@ -256,6 +293,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    
+
   }
   
   .form-items:nth-child(4) {
@@ -265,6 +304,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+   
+
   }
   
   .form-items:nth-child(5) {
@@ -274,6 +315,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    
+
   }
   
   .form-items:nth-child(6) {
@@ -283,6 +326,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    
+
   }
   
   .form-items:nth-child(7) {
@@ -292,6 +337,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    
+
   }
   
   .form-items:nth-child(8) {
@@ -301,6 +348,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   
   .form-items:nth-child(9) {
@@ -310,6 +359,8 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
   .form-items:nth-child(10) {
     display: block;
@@ -318,4 +369,6 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
   }
